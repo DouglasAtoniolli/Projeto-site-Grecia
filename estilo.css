@@ -67,8 +67,7 @@ nav ul li a{
 }
 h2{
     text-align: center;
-    padding: 20px 20px 0 0;
-    
+    padding: 20px 20px 0 0;    
     
 }
 footer{
@@ -81,6 +80,7 @@ footer{
     height: 50px;    
     text-align: center;
     line-height: 50px;
+    
 }
 h4{
     padding: 10px 10px 10px 10px;
@@ -90,3 +90,15 @@ h4{
     padding: 10px 10px 10px 10px;
 }
 
+.legenda{
+    text-align: justify;
+    font-size: 15px;
+}
+
+.foto{
+    display: inline-block;
+    width: 370px;
+    padding: 20px 20px 20px 20px;
+    float: left;
+    
+}
