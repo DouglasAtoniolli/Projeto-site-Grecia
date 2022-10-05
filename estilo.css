@@ -99,6 +99,16 @@ h4{
     display: inline-block;
     width: 370px;
     padding: 20px 20px 20px 20px;
-    float: left;
+    float: left;    
+}
+.moldura{
     
+    width: 600px;
+    height: 400px;
+    background-color: #eeeeee;
+    transition: backgroud-image 2s;
+
+}
+.iframe{
+    padding: 30px 30px 30px 30px;
 }
