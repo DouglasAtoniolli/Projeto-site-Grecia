@@ -1,6 +1,7 @@
 *{
     margin:0;
     padding: 0;
+    
 
 }
 h1{
@@ -15,7 +16,7 @@ h3{
     font-style: italic;
     text-align: center;
     color: black;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 p{
@@ -101,53 +102,142 @@ h4{
     padding: 20px 20px 20px 20px;
     float: left;    
 }
-.moldura{
-    
-    width: 600px;
-    height: 400px;
-    background-color: #eeeeee;
-    transition: backgroud-image 2s;
-    
-
-}
 .iframe{
     padding: 30px 30px 30px 30px;
 }
 .slider{
-    margin: 0 auto;
-    width: 800px;
-    height: 400px;
-    overflow: hidden;
-}
-.slides{
-    width: 400px;
-    height: 400px;
-    display: flex;
-}
-.slides input{
-    display: none;
-}
-.slide{
-    width: 200%;
+    display: block;
+    height: 293px;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
     position: relative;
 }
-.slide img{
-    width: 800px;
-}
-.manual-navigation{
+.slider li{
+    list-style: none;
     position: absolute;
-    width: 800px;
-    margin-top: -40px;
-    display: flex;
-    justify-content: center;
+    
 }
-.manual-btn{
-    border: 2px solid #FFF;
-    padding: 5px;
-    border-radius: 10px;
+.slider img{
+    margin: 20px;
+    height: 400px;
+    width: 600px;
+    vertical-align: top;
+       
+}
+.slider input{
+    display: none;
+}
+.slider label{
+
+    background-color:#40e0d0;
+    bottom: 0%;
     cursor: pointer;
-    transition: 2s;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    border-radius: 15px;
+    z-index: 10;
+    
+
 }
-.manual-btn:not(:last-child){
-    margin-right: 16px;
+.slider li:nth-child(1) label{
+    left: 10px;
 }
+.slider li:nth-child(2) label{
+    left: 20px;
+}
+.slider li:nth-child(3) label{
+    left: 30px;
+}
+.slider li:nth-child(4) label{
+    left: 40px;
+}
+.slider li:nth-child(5) label{
+    left: 50px;
+}
+.slider li:nth-child(6) label{
+    left: 60px;
+}
+.slider li:nth-child(7) label{
+    left: 70px;
+}
+.slider li:nth-child(8) label{
+    left: 80px;
+}
+.slider li:nth-child(9) label{
+    left: 90px;
+}
+.slider li:nth-child(10) label{
+    left: 100px;
+}
+.slider li:nth-child(11) label{
+    left: 110px;
+}
+.slider li:nth-child(12) label{
+    left: 120px;
+}
+.slider li:nth-child(13) label{
+    left: 130px;
+}
+.slider li:nth-child(14) label{
+    left: 140px;
+}
+.slider li:nth-child(15) label{
+    left: 150px;
+}
+.slider li:nth-child(16) label{
+    left: 160px;
+}
+.slider li:nth-child(17) label{
+    left: 170px;
+}
+.slider li:nth-child(18) label{
+    left: 180px;
+}
+.slider li:nth-child(19) label{
+    left: 190px;
+}
+.slider li:nth-child(20) label{
+    left: 200px;
+}
+.slider li:nth-child(21) label{
+    left: 210px;
+}
+.slider li:nth-child(22) label{
+    left: 220px;
+}
+.slider li:nth-child(22) label{
+    left: 230px;
+}
+.slider li:nth-child(23) label{
+    left: 240px;
+}
+.slider li:nth-child(24) label{
+    left: 240px;
+}
+.slider li:nth-child(25) label{
+    left: 250px;
+}
+.slider li:nth-child(26) label{
+    left: 260px;
+}
+.slider li:nth-child(27) label{
+    left: 270px;
+}
+.slider img{
+    opacity: 0;
+    visibility: hidden;
+}
+.slider li input:checked ~ img{
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+.pg7{
+    padding: 150px 10px 10px 10px;
+}
+
+
+
