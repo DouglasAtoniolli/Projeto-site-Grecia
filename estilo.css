@@ -29,6 +29,7 @@ p{
     padding-right: 10px;
 }
 body{
+    
     background-color: blanchedalmond;
     
 }
@@ -139,6 +140,7 @@ h4{
     width: 10px;
     border-radius: 15px;
     z-index: 10;
+    padding: 15px;
     
 
 }
